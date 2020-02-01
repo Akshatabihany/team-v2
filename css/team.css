@@ -1,20 +1,36 @@
 html, body {
 	height: 100%;
 }
-.team{
-padding-left: 20%;
+body{
+  padding: 100px;
+  margin:0;
+  color:#333;
+  background:;
+  font-family:sans-serif;
 }
+
+h1{
+  text-align:center;
+  font-family:serif;
+  font-size:3em;
+  color:#bbb
+}
+
 body {
 	overflow: hidden;
 background-color: #e4f9ff;
 }
-.card{
-	border-radius: 50%;
+#team{
+padding: 5%;
 }
-.data
+.card{
+margin-left: 25%;
+	/*border-radius: 50%;*/
+}
+/* .data
 {
 	border-radius: 50%;
-}
+} */
 .box {
 	max-width: 70vw;
 	padding: 30px;
@@ -166,19 +182,7 @@ a:hover:after {
 	transform: rotate(0deg) translateX(50%);
 }
 
-body{
-  padding: 100px;
-  margin:0;
-  color:#333;
-  background:;
-  font-family:sans-serif;
-}
-h1{
-  text-align:center;
-  font-family:serif;
-  font-size:3em;
-  color:#bbb
-}
+
 #team{
   display:flex;
   flex-wrap: wrap;
